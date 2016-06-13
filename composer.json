@@ -1,0 +1,19 @@
+{
+    "name": "mnvx/sensche",
+    "description": "Parsing of sentence scheme",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mnv",
+            "email": "mnvx@yandex.ru"
+        }
+    ],
+    "require": {
+        "nqxcode/phpmorphy": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Sensche\\": "src/Sensche"
+        }
+    }
+}
